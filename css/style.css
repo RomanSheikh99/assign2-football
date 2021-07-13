@@ -20,10 +20,14 @@ body{
     margin: 0 auto;
 }
 
+.title{
+    margin: 20px 0;
+}
 .title h1{
     font-size: 2em;
     color: #111;
     text-transform: capitalize;
+    line-height: 2;
 }
 
 .underline{
@@ -55,7 +59,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+section{
+    margin: 40px 0;
+}
 /* common css stylesheet end here */
 
 /* header section stylesheet start */
@@ -117,6 +123,30 @@ nav ul li a:hover{
 /* header section stylesheet end */
 
 /* top players section stylesheet start  */
+
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.player-profile{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
+    padding: 15px;
+    border-radius: 5px;
+}
+.player-img img{
+    width: 100%;
+}
+.player-info h2{
+    font-size: 28px;
+    line-height: 2.5;
+    text-transform: capitalize;
+}
+.player-info p{
+    color: #777;
+}
+
+
 /* top players section stylesheet end */
 
 /* top country section stylesheet start  */

@@ -39,6 +39,14 @@ nav:hover .nav-bar{
 /* header section stylesheet end */
 
 /* top players section stylesheet start  */
+
+
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
 /* top players section stylesheet end */
 
 /* top country section stylesheet start  */

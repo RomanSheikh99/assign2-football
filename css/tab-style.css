@@ -25,6 +25,14 @@ nav ul li {
 /* header section stylesheet end */
 
 /* top players section stylesheet start  */
+
+
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
 /* top players section stylesheet end */
 
 /* top country section stylesheet start  */
