@@ -17,7 +17,7 @@ body{
 
 .container{
     width: 80%;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 .title h1{
@@ -31,11 +31,90 @@ body{
     height: 1px;
     background-color: #2D25A0;
 }
+.btn{
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform .4s linear;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.all-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* common css stylesheet end here */
 
 /* header section stylesheet start */
-/* header section stylesheet start */
+#header{
+    background-color: #2D25A0;
+}
+
+/* nav part css below */
+menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar{
+    display: none;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: all .4s linear;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color: #2D25A0;
+    border-radius: 4px;
+}
+.login-btn i{
+    margin-right: 10px;
+}
+
+/* bennar part css below */
+
+.bennar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.dailoge-box{
+    color: #fff;
+}
+.dailoge-box i{
+    margin-left: 10px;
+}
+
+.bennar-img img{
+    width: 80%;
+}
+
+/* header section stylesheet end */
 
 /* top players section stylesheet start  */
 /* top players section stylesheet end */
