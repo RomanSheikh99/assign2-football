@@ -260,7 +260,11 @@ footer{
 .footer-logo img{
     width: 400px;
 }
-.social-icon i{
+.social-icon a{
+    text-decoration: none;
+    color: #111;
+}
+.social-icon a i{
     padding: 5px;
     background-color: #ddd;
     border-radius: 50%;
